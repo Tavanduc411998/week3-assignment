@@ -84,7 +84,7 @@ export default function App() {
       if (gamePrompt === 'Victory!') return 'green';
       if (gamePrompt === 'Defeat!') return 'red';
       if (gamePrompt === 'Tie game!') return 'yellow';
-      if (gamePrompt === 'Yolo!') return 'Black';
+      if (gamePrompt === 'Yolo!') return 'green';
       return null;
     };
 
